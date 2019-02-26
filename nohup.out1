@@ -1,0 +1,172 @@
+/home/xuejx/anaconda3/envs/python36/lib/python3.6/importlib/_bootstrap.py:205: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+WARNING:tensorflow:RunConfig.uid (from tensorflow.contrib.learn.python.learn.estimators.run_config) is experimental and may change or be removed at any time, and without warning.
+INFO:tensorflow:Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f2087e8b198>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_session_config': None, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': 'logs/kaggle_library_book'}
+WARNING:tensorflow:RunConfig.uid (from tensorflow.contrib.learn.python.learn.estimators.run_config) is experimental and may change or be removed at any time, and without warning.
+WARNING:tensorflow:From /home/xuejx/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/monitors.py:267: BaseMonitor.__init__ (from tensorflow.contrib.learn.python.learn.monitors) is deprecated and will be removed after 2016-12-05.
+Instructions for updating:
+Monitors are deprecated. Please use tf.train.SessionRunHook.
+INFO:tensorflow:Create CheckpointSaverHook.
+2019-02-23 21:07:54.167096: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+INFO:tensorflow:Saving checkpoints for 1 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:train/input_0 = the movie ' s wildly careening tone and
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 1
+INFO:tensorflow:loss = 1.61004, step = 1
+INFO:tensorflow:Saving checkpoints for 100 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:Loss for final step: 1.45611.
+INFO:tensorflow:Starting evaluation at 2019-02-23-13:11:23
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-100
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-13:12:23
+INFO:tensorflow:Saving dict for global step 100: accuracy = 0.499063, global_step = 100, loss = 1.30644
+Config:  Read config file name: ./config/kaggle_library_book
+{
+    "data": {
+        "type": "kaggle_library_book",
+        "base_path": "data/",
+        "raw_data_path": "kaggle_library_books/",
+        "processed_path": "kaggle_library_books_processed_data",
+        "testset_size": 25000,
+        "num_classes": 5,
+        "PAD_ID": 0
+    },
+    "model": {
+        "batch_size": 64,
+        "embed_type": "rand",
+        "pretrained_embed": "",
+        "embed_dim": 300,
+        "num_filters": 256,
+        "filter_sizes": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "dropout": 0.5
+    },
+    "train": {
+        "learning_rate": 5e-05,
+        "train_steps": 100,
+        "model_dir": "logs/kaggle_library_book",
+        "save_checkpoints_steps": 1000,
+        "loss_hook_n_iter": 1000,
+        "check_hook_n_iter": 1000,
+        "min_eval_frequency": 1000,
+        "print_verbose": true,
+        "debug": false
+    },
+    "slack": {
+        "webhook_url": ""
+    }
+}
+load vocab ...
+make Training data and Test data Start....
+Setting max_seq_length to Config : 67
+load data from train_X_ids, train_y...
+load data from test_X_ids, test_y...
+train data count : 131059
+test data count : 25000
+shuffle dataset ...
+The learning is finished with *text-cnn-tensorflow-master* Project using `kaggle_library_book` config.

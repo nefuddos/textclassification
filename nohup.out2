@@ -1,0 +1,1446 @@
+/home/xuejx/anaconda3/envs/python36/lib/python3.6/importlib/_bootstrap.py:205: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+WARNING:tensorflow:RunConfig.uid (from tensorflow.contrib.learn.python.learn.estimators.run_config) is experimental and may change or be removed at any time, and without warning.
+INFO:tensorflow:Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f62eaba60b8>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_session_config': None, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': 'logs/kaggle_library_book'}
+WARNING:tensorflow:RunConfig.uid (from tensorflow.contrib.learn.python.learn.estimators.run_config) is experimental and may change or be removed at any time, and without warning.
+WARNING:tensorflow:From /home/xuejx/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/monitors.py:267: BaseMonitor.__init__ (from tensorflow.contrib.learn.python.learn.monitors) is deprecated and will be removed after 2016-12-05.
+Instructions for updating:
+Monitors are deprecated. Please use tf.train.SessionRunHook.
+INFO:tensorflow:Create CheckpointSaverHook.
+2019-02-23 23:18:40.981236: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-100
+INFO:tensorflow:Saving checkpoints for 101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:train/input_0 = things all
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 1.18946, step = 101
+INFO:tensorflow:global_step/sec: 0.500244
+INFO:tensorflow:loss = 1.35134, step = 201 (199.901 sec)
+INFO:tensorflow:global_step/sec: 0.499919
+INFO:tensorflow:loss = 1.17426, step = 301 (200.032 sec)
+INFO:tensorflow:global_step/sec: 0.498874
+INFO:tensorflow:loss = 1.20266, step = 401 (200.451 sec)
+INFO:tensorflow:global_step/sec: 0.497112
+INFO:tensorflow:loss = 1.39188, step = 501 (201.162 sec)
+INFO:tensorflow:global_step/sec: 0.500029
+INFO:tensorflow:loss = 1.10499, step = 601 (199.988 sec)
+INFO:tensorflow:global_step/sec: 0.497124
+INFO:tensorflow:loss = 1.04016, step = 701 (201.157 sec)
+INFO:tensorflow:global_step/sec: 0.494586
+INFO:tensorflow:loss = 1.20803, step = 801 (202.189 sec)
+INFO:tensorflow:global_step/sec: 0.502861
+INFO:tensorflow:loss = 1.10976, step = 901 (198.862 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-15:48:48
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-15:49:46
+INFO:tensorflow:Saving dict for global step 101: accuracy = 0.510625, global_step = 101, loss = 1.2924
+INFO:tensorflow:Validation (step 1000): accuracy = 0.510625, loss = 1.2924, global_step = 101
+INFO:tensorflow:global_step/sec: 0.385241
+INFO:tensorflow:loss = 1.2393, step = 1001 (259.578 sec)
+INFO:tensorflow:Saving checkpoints for 1101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.498356
+INFO:tensorflow:train/input_0 = of woman warriors
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 1.04438, step = 1101 (200.661 sec)
+INFO:tensorflow:global_step/sec: 0.499684
+INFO:tensorflow:loss = 1.21463, step = 1201 (200.126 sec)
+INFO:tensorflow:global_step/sec: 0.498163
+INFO:tensorflow:loss = 1.06788, step = 1301 (200.738 sec)
+INFO:tensorflow:global_step/sec: 0.500271
+INFO:tensorflow:loss = 1.07108, step = 1401 (199.892 sec)
+INFO:tensorflow:global_step/sec: 0.500963
+INFO:tensorflow:loss = 1.12371, step = 1501 (199.616 sec)
+INFO:tensorflow:global_step/sec: 0.494117
+INFO:tensorflow:loss = 1.0745, step = 1601 (202.381 sec)
+INFO:tensorflow:global_step/sec: 0.494836
+INFO:tensorflow:loss = 1.04536, step = 1701 (202.087 sec)
+INFO:tensorflow:global_step/sec: 0.499648
+INFO:tensorflow:loss = 1.12872, step = 1801 (200.141 sec)
+INFO:tensorflow:global_step/sec: 0.498226
+INFO:tensorflow:loss = 1.08408, step = 1901 (200.712 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-16:23:14
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-1101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-16:24:12
+INFO:tensorflow:Saving dict for global step 1101: accuracy = 0.565313, global_step = 1101, loss = 1.11631
+INFO:tensorflow:Validation (step 2000): accuracy = 0.565313, loss = 1.11631, global_step = 1101
+INFO:tensorflow:global_step/sec: 0.387863
+INFO:tensorflow:loss = 1.08165, step = 2001 (257.823 sec)
+INFO:tensorflow:Saving checkpoints for 2101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.490168
+INFO:tensorflow:train/input_0 = make this
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 1.06645, step = 2101 (204.012 sec)
+INFO:tensorflow:global_step/sec: 0.488826
+INFO:tensorflow:loss = 0.96702, step = 2201 (204.571 sec)
+INFO:tensorflow:global_step/sec: 0.489614
+INFO:tensorflow:loss = 0.912666, step = 2301 (204.243 sec)
+INFO:tensorflow:global_step/sec: 0.4944
+INFO:tensorflow:loss = 0.907395, step = 2401 (202.266 sec)
+INFO:tensorflow:global_step/sec: 0.495663
+INFO:tensorflow:loss = 0.833156, step = 2501 (201.750 sec)
+INFO:tensorflow:global_step/sec: 0.492591
+INFO:tensorflow:loss = 0.931285, step = 2601 (203.009 sec)
+INFO:tensorflow:global_step/sec: 0.4926
+INFO:tensorflow:loss = 0.937546, step = 2701 (203.004 sec)
+INFO:tensorflow:global_step/sec: 0.499247
+INFO:tensorflow:loss = 1.13603, step = 2801 (200.302 sec)
+INFO:tensorflow:global_step/sec: 0.499685
+INFO:tensorflow:loss = 0.928509, step = 2901 (200.126 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-16:57:56
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-2101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-16:58:53
+INFO:tensorflow:Saving dict for global step 2101: accuracy = 0.603594, global_step = 2101, loss = 0.98399
+INFO:tensorflow:Validation (step 3000): accuracy = 0.603594, loss = 0.98399, global_step = 2101
+INFO:tensorflow:global_step/sec: 0.387316
+INFO:tensorflow:loss = 0.856318, step = 3001 (258.187 sec)
+INFO:tensorflow:Saving checkpoints for 3101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.504077
+INFO:tensorflow:train/input_0 = of a sick and evil woman
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 1.20564, step = 3101 (198.383 sec)
+INFO:tensorflow:global_step/sec: 0.498933
+INFO:tensorflow:loss = 0.849986, step = 3201 (200.427 sec)
+INFO:tensorflow:global_step/sec: 0.499694
+INFO:tensorflow:loss = 0.861787, step = 3301 (200.123 sec)
+INFO:tensorflow:global_step/sec: 0.503313
+INFO:tensorflow:loss = 0.761904, step = 3401 (198.683 sec)
+INFO:tensorflow:global_step/sec: 0.496842
+INFO:tensorflow:loss = 1.02754, step = 3501 (201.271 sec)
+INFO:tensorflow:global_step/sec: 0.504281
+INFO:tensorflow:loss = 0.954637, step = 3601 (198.302 sec)
+INFO:tensorflow:global_step/sec: 0.50275
+INFO:tensorflow:loss = 0.84892, step = 3701 (198.908 sec)
+INFO:tensorflow:global_step/sec: 0.496248
+INFO:tensorflow:loss = 0.883723, step = 3801 (201.510 sec)
+INFO:tensorflow:global_step/sec: 0.501702
+INFO:tensorflow:loss = 0.910453, step = 3901 (199.322 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-17:32:13
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-3101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-17:33:10
+INFO:tensorflow:Saving dict for global step 3101: accuracy = 0.629687, global_step = 3101, loss = 0.911034
+INFO:tensorflow:Validation (step 4000): accuracy = 0.629687, loss = 0.911034, global_step = 3101
+INFO:tensorflow:global_step/sec: 0.384314
+INFO:tensorflow:loss = 0.726722, step = 4001 (260.204 sec)
+INFO:tensorflow:Saving checkpoints for 4101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.498374
+INFO:tensorflow:train/input_0 = why anthony hopkins is in it
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 0.741963, step = 4101 (200.653 sec)
+INFO:tensorflow:global_step/sec: 0.506923
+INFO:tensorflow:loss = 0.871738, step = 4201 (197.268 sec)
+INFO:tensorflow:global_step/sec: 0.499817
+INFO:tensorflow:loss = 0.788601, step = 4301 (200.073 sec)
+INFO:tensorflow:global_step/sec: 0.507392
+INFO:tensorflow:loss = 0.86958, step = 4401 (197.086 sec)
+INFO:tensorflow:global_step/sec: 0.503261
+INFO:tensorflow:loss = 0.676078, step = 4501 (198.704 sec)
+INFO:tensorflow:global_step/sec: 0.501782
+INFO:tensorflow:loss = 0.872008, step = 4601 (199.290 sec)
+INFO:tensorflow:global_step/sec: 0.503441
+INFO:tensorflow:loss = 0.793626, step = 4701 (198.633 sec)
+INFO:tensorflow:global_step/sec: 0.496547
+INFO:tensorflow:loss = 0.732095, step = 4801 (201.391 sec)
+INFO:tensorflow:global_step/sec: 0.502832
+INFO:tensorflow:loss = 0.905911, step = 4901 (198.874 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-18:06:22
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-4101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-18:07:20
+INFO:tensorflow:Saving dict for global step 4101: accuracy = 0.645156, global_step = 4101, loss = 0.874866
+INFO:tensorflow:Validation (step 5000): accuracy = 0.645156, loss = 0.874866, global_step = 4101
+INFO:tensorflow:global_step/sec: 0.388609
+INFO:tensorflow:loss = 0.707427, step = 5001 (257.328 sec)
+INFO:tensorflow:Saving checkpoints for 5101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.497543
+INFO:tensorflow:train/input_0 = an enjoyable , if occasionally flawed , experiment .
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 3
+INFO:tensorflow:loss = 0.800291, step = 5101 (200.988 sec)
+INFO:tensorflow:global_step/sec: 0.500541
+INFO:tensorflow:loss = 0.605362, step = 5201 (199.783 sec)
+INFO:tensorflow:global_step/sec: 0.499722
+INFO:tensorflow:loss = 0.856809, step = 5301 (200.112 sec)
+INFO:tensorflow:global_step/sec: 0.492227
+INFO:tensorflow:loss = 0.860792, step = 5401 (203.158 sec)
+INFO:tensorflow:global_step/sec: 0.504137
+INFO:tensorflow:loss = 0.691372, step = 5501 (198.359 sec)
+INFO:tensorflow:global_step/sec: 0.495587
+INFO:tensorflow:loss = 0.9594, step = 5601 (201.781 sec)
+INFO:tensorflow:global_step/sec: 0.501064
+INFO:tensorflow:loss = 0.71845, step = 5701 (199.575 sec)
+INFO:tensorflow:global_step/sec: 0.490245
+INFO:tensorflow:loss = 0.656749, step = 5801 (203.980 sec)
+INFO:tensorflow:global_step/sec: 0.506084
+INFO:tensorflow:loss = 0.807094, step = 5901 (197.595 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-18:40:45
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-5101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-18:41:42
+INFO:tensorflow:Saving dict for global step 5101: accuracy = 0.646406, global_step = 5101, loss = 0.855239
+INFO:tensorflow:Validation (step 6000): accuracy = 0.646406, loss = 0.855239, global_step = 5101
+INFO:tensorflow:global_step/sec: 0.388716
+INFO:tensorflow:loss = 0.920183, step = 6001 (257.257 sec)
+INFO:tensorflow:Saving checkpoints for 6101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.499143
+INFO:tensorflow:train/input_0 = chatty fish
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 0.848424, step = 6101 (200.344 sec)
+INFO:tensorflow:global_step/sec: 0.500301
+INFO:tensorflow:loss = 0.788792, step = 6201 (199.879 sec)
+INFO:tensorflow:global_step/sec: 0.497503
+INFO:tensorflow:loss = 0.74201, step = 6301 (201.004 sec)
+INFO:tensorflow:global_step/sec: 0.497617
+INFO:tensorflow:loss = 0.64928, step = 6401 (200.958 sec)
+INFO:tensorflow:global_step/sec: 0.502518
+INFO:tensorflow:loss = 0.916, step = 6501 (198.998 sec)
+INFO:tensorflow:global_step/sec: 0.496423
+INFO:tensorflow:loss = 0.628105, step = 6601 (201.441 sec)
+INFO:tensorflow:global_step/sec: 0.506359
+INFO:tensorflow:loss = 0.681809, step = 6701 (197.488 sec)
+INFO:tensorflow:global_step/sec: 0.49813
+INFO:tensorflow:loss = 0.722822, step = 6801 (200.751 sec)
+INFO:tensorflow:global_step/sec: 0.492779
+INFO:tensorflow:loss = 0.604778, step = 6901 (202.931 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-19:15:08
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-6101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-19:16:06
+INFO:tensorflow:Saving dict for global step 6101: accuracy = 0.654844, global_step = 6101, loss = 0.838069
+INFO:tensorflow:Validation (step 7000): accuracy = 0.654844, loss = 0.838069, global_step = 6101
+INFO:tensorflow:global_step/sec: 0.384488
+INFO:tensorflow:loss = 0.756109, step = 7001 (260.086 sec)
+INFO:tensorflow:Saving checkpoints for 7101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.497184
+INFO:tensorflow:train/input_0 = the eyes of the idealistic kid who chooses to champion his ultimately losing cause
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 0.792619, step = 7101 (201.134 sec)
+INFO:tensorflow:global_step/sec: 0.497806
+INFO:tensorflow:loss = 0.524431, step = 7201 (200.881 sec)
+INFO:tensorflow:global_step/sec: 0.499127
+INFO:tensorflow:loss = 0.612015, step = 7301 (200.350 sec)
+INFO:tensorflow:global_step/sec: 0.502972
+INFO:tensorflow:loss = 0.759836, step = 7401 (198.818 sec)
+INFO:tensorflow:global_step/sec: 0.501321
+INFO:tensorflow:loss = 0.7947, step = 7501 (199.473 sec)
+INFO:tensorflow:global_step/sec: 0.494952
+INFO:tensorflow:loss = 0.696211, step = 7601 (202.040 sec)
+INFO:tensorflow:global_step/sec: 0.503112
+INFO:tensorflow:loss = 0.6618, step = 7701 (198.763 sec)
+INFO:tensorflow:global_step/sec: 0.497635
+INFO:tensorflow:loss = 0.750196, step = 7801 (200.951 sec)
+INFO:tensorflow:global_step/sec: 0.503437
+INFO:tensorflow:loss = 0.79096, step = 7901 (198.635 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-19:49:28
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-7101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-19:50:26
+INFO:tensorflow:Saving dict for global step 7101: accuracy = 0.65625, global_step = 7101, loss = 0.833889
+INFO:tensorflow:Validation (step 8000): accuracy = 0.65625, loss = 0.833889, global_step = 7101
+INFO:tensorflow:global_step/sec: 0.386717
+INFO:tensorflow:loss = 0.896331, step = 8001 (258.588 sec)
+INFO:tensorflow:Saving checkpoints for 8101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.492829
+INFO:tensorflow:train/input_0 = enhances the personal touch of manual animation .
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 3
+INFO:tensorflow:loss = 0.874016, step = 8101 (202.910 sec)
+INFO:tensorflow:global_step/sec: 0.498667
+INFO:tensorflow:loss = 0.746976, step = 8201 (200.534 sec)
+INFO:tensorflow:global_step/sec: 0.502112
+INFO:tensorflow:loss = 0.789896, step = 8301 (199.159 sec)
+INFO:tensorflow:global_step/sec: 0.509114
+INFO:tensorflow:loss = 0.795171, step = 8401 (196.420 sec)
+INFO:tensorflow:global_step/sec: 0.51344
+INFO:tensorflow:loss = 0.642994, step = 8501 (194.765 sec)
+INFO:tensorflow:global_step/sec: 0.512984
+INFO:tensorflow:loss = 0.65321, step = 8601 (194.938 sec)
+INFO:tensorflow:global_step/sec: 0.511592
+INFO:tensorflow:loss = 0.758087, step = 8701 (195.468 sec)
+INFO:tensorflow:global_step/sec: 0.506341
+INFO:tensorflow:loss = 0.713565, step = 8801 (197.495 sec)
+INFO:tensorflow:global_step/sec: 0.507859
+INFO:tensorflow:loss = 0.672575, step = 8901 (196.905 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-20:23:22
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-8101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-20:24:20
+INFO:tensorflow:Saving dict for global step 8101: accuracy = 0.657969, global_step = 8101, loss = 0.825911
+INFO:tensorflow:Validation (step 9000): accuracy = 0.657969, loss = 0.825911, global_step = 8101
+INFO:tensorflow:global_step/sec: 0.391282
+INFO:tensorflow:loss = 0.890969, step = 9001 (255.570 sec)
+INFO:tensorflow:Saving checkpoints for 9101 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:global_step/sec: 0.505613
+INFO:tensorflow:train/input_0 = contemporary political resonance
+INFO:tensorflow:train/target_0 = 1, train/pred_0 = 2
+INFO:tensorflow:loss = 0.556711, step = 9101 (197.781 sec)
+INFO:tensorflow:global_step/sec: 0.508677
+INFO:tensorflow:loss = 0.648952, step = 9201 (196.587 sec)
+INFO:tensorflow:global_step/sec: 0.513115
+INFO:tensorflow:loss = 0.82207, step = 9301 (194.888 sec)
+INFO:tensorflow:global_step/sec: 0.512537
+INFO:tensorflow:loss = 0.688393, step = 9401 (195.108 sec)
+INFO:tensorflow:global_step/sec: 0.513907
+INFO:tensorflow:loss = 0.792686, step = 9501 (194.588 sec)
+INFO:tensorflow:global_step/sec: 0.509528
+INFO:tensorflow:loss = 0.781246, step = 9601 (196.260 sec)
+INFO:tensorflow:global_step/sec: 0.510097
+INFO:tensorflow:loss = 0.679203, step = 9701 (196.041 sec)
+INFO:tensorflow:global_step/sec: 0.508197
+INFO:tensorflow:loss = 0.739172, step = 9801 (196.774 sec)
+INFO:tensorflow:global_step/sec: 0.510482
+INFO:tensorflow:loss = 0.616793, step = 9901 (195.893 sec)
+INFO:tensorflow:Starting evaluation at 2019-02-23-20:57:01
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-9101
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-20:57:58
+INFO:tensorflow:Saving dict for global step 9101: accuracy = 0.66, global_step = 9101, loss = 0.826604
+INFO:tensorflow:Validation (step 10000): accuracy = 0.66, loss = 0.826604, global_step = 9101
+INFO:tensorflow:Saving checkpoints for 10000 into logs/kaggle_library_book/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.653363.
+INFO:tensorflow:Starting evaluation at 2019-02-23-20:58:00
+INFO:tensorflow:Restoring parameters from logs/kaggle_library_book/model.ckpt-10000
+INFO:tensorflow:Evaluation [1/100]
+INFO:tensorflow:Evaluation [2/100]
+INFO:tensorflow:Evaluation [3/100]
+INFO:tensorflow:Evaluation [4/100]
+INFO:tensorflow:Evaluation [5/100]
+INFO:tensorflow:Evaluation [6/100]
+INFO:tensorflow:Evaluation [7/100]
+INFO:tensorflow:Evaluation [8/100]
+INFO:tensorflow:Evaluation [9/100]
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [11/100]
+INFO:tensorflow:Evaluation [12/100]
+INFO:tensorflow:Evaluation [13/100]
+INFO:tensorflow:Evaluation [14/100]
+INFO:tensorflow:Evaluation [15/100]
+INFO:tensorflow:Evaluation [16/100]
+INFO:tensorflow:Evaluation [17/100]
+INFO:tensorflow:Evaluation [18/100]
+INFO:tensorflow:Evaluation [19/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [21/100]
+INFO:tensorflow:Evaluation [22/100]
+INFO:tensorflow:Evaluation [23/100]
+INFO:tensorflow:Evaluation [24/100]
+INFO:tensorflow:Evaluation [25/100]
+INFO:tensorflow:Evaluation [26/100]
+INFO:tensorflow:Evaluation [27/100]
+INFO:tensorflow:Evaluation [28/100]
+INFO:tensorflow:Evaluation [29/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [31/100]
+INFO:tensorflow:Evaluation [32/100]
+INFO:tensorflow:Evaluation [33/100]
+INFO:tensorflow:Evaluation [34/100]
+INFO:tensorflow:Evaluation [35/100]
+INFO:tensorflow:Evaluation [36/100]
+INFO:tensorflow:Evaluation [37/100]
+INFO:tensorflow:Evaluation [38/100]
+INFO:tensorflow:Evaluation [39/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [41/100]
+INFO:tensorflow:Evaluation [42/100]
+INFO:tensorflow:Evaluation [43/100]
+INFO:tensorflow:Evaluation [44/100]
+INFO:tensorflow:Evaluation [45/100]
+INFO:tensorflow:Evaluation [46/100]
+INFO:tensorflow:Evaluation [47/100]
+INFO:tensorflow:Evaluation [48/100]
+INFO:tensorflow:Evaluation [49/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [51/100]
+INFO:tensorflow:Evaluation [52/100]
+INFO:tensorflow:Evaluation [53/100]
+INFO:tensorflow:Evaluation [54/100]
+INFO:tensorflow:Evaluation [55/100]
+INFO:tensorflow:Evaluation [56/100]
+INFO:tensorflow:Evaluation [57/100]
+INFO:tensorflow:Evaluation [58/100]
+INFO:tensorflow:Evaluation [59/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [61/100]
+INFO:tensorflow:Evaluation [62/100]
+INFO:tensorflow:Evaluation [63/100]
+INFO:tensorflow:Evaluation [64/100]
+INFO:tensorflow:Evaluation [65/100]
+INFO:tensorflow:Evaluation [66/100]
+INFO:tensorflow:Evaluation [67/100]
+INFO:tensorflow:Evaluation [68/100]
+INFO:tensorflow:Evaluation [69/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Evaluation [71/100]
+INFO:tensorflow:Evaluation [72/100]
+INFO:tensorflow:Evaluation [73/100]
+INFO:tensorflow:Evaluation [74/100]
+INFO:tensorflow:Evaluation [75/100]
+INFO:tensorflow:Evaluation [76/100]
+INFO:tensorflow:Evaluation [77/100]
+INFO:tensorflow:Evaluation [78/100]
+INFO:tensorflow:Evaluation [79/100]
+INFO:tensorflow:Evaluation [80/100]
+INFO:tensorflow:Evaluation [81/100]
+INFO:tensorflow:Evaluation [82/100]
+INFO:tensorflow:Evaluation [83/100]
+INFO:tensorflow:Evaluation [84/100]
+INFO:tensorflow:Evaluation [85/100]
+INFO:tensorflow:Evaluation [86/100]
+INFO:tensorflow:Evaluation [87/100]
+INFO:tensorflow:Evaluation [88/100]
+INFO:tensorflow:Evaluation [89/100]
+INFO:tensorflow:Evaluation [90/100]
+INFO:tensorflow:Evaluation [91/100]
+INFO:tensorflow:Evaluation [92/100]
+INFO:tensorflow:Evaluation [93/100]
+INFO:tensorflow:Evaluation [94/100]
+INFO:tensorflow:Evaluation [95/100]
+INFO:tensorflow:Evaluation [96/100]
+INFO:tensorflow:Evaluation [97/100]
+INFO:tensorflow:Evaluation [98/100]
+INFO:tensorflow:Evaluation [99/100]
+INFO:tensorflow:Evaluation [100/100]
+INFO:tensorflow:Finished evaluation at 2019-02-23-20:58:57
+INFO:tensorflow:Saving dict for global step 10000: accuracy = 0.662188, global_step = 10000, loss = 0.822786
+Config:  Read config file name: ./config/kaggle_library_book
+{
+    "data": {
+        "type": "kaggle_library_book",
+        "base_path": "data/",
+        "raw_data_path": "kaggle_library_books/",
+        "processed_path": "kaggle_library_books_processed_data",
+        "testset_size": 25000,
+        "num_classes": 5,
+        "PAD_ID": 0
+    },
+    "model": {
+        "batch_size": 64,
+        "embed_type": "rand",
+        "pretrained_embed": "",
+        "embed_dim": 300,
+        "num_filters": 256,
+        "filter_sizes": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "dropout": 0.5
+    },
+    "train": {
+        "learning_rate": 5e-05,
+        "train_steps": 10000,
+        "model_dir": "logs/kaggle_library_book",
+        "save_checkpoints_steps": 1000,
+        "loss_hook_n_iter": 1000,
+        "check_hook_n_iter": 1000,
+        "min_eval_frequency": 1000,
+        "print_verbose": true,
+        "debug": false
+    },
+    "slack": {
+        "webhook_url": ""
+    }
+}
+load vocab ...
+make Training data and Test data Start....
+Setting max_seq_length to Config : 67
+load data from train_X_ids, train_y...
+load data from test_X_ids, test_y...
+train data count : 131059
+test data count : 25000
+shuffle dataset ...
+The learning is finished with *text-cnn-tensorflow-master* Project using `kaggle_library_book` config.
