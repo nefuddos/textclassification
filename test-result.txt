@@ -1,0 +1,27 @@
+2019-02-27 18:19:24.735598: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+/home/scm/anaconda3/envs/python36/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Configuring CNN model...
+Loading test data...
+Testing...
+Test Loss:    1.1, Test Acc:  55.31%
+Precision, Recall and F1-Score...
+                           precision    recall  f1-score   support
+
+    __label__Introduction       0.55      0.47      0.50      4673
+__label__LiteratureReview       0.39      0.30      0.34      2460
+          __label__Method       0.56      0.62      0.59      6419
+          __label__Result       0.60      0.62      0.61      4398
+              __label__DC       0.57      0.61      0.59      5049
+
+                micro avg       0.55      0.55      0.55     22999
+                macro avg       0.53      0.52      0.53     22999
+             weighted avg       0.55      0.55      0.55     22999
+
+Confusion Matrix...
+[[2174  573  883  137  906]
+ [ 683  726  631  101  319]
+ [ 440  347 3987 1087  558]
+ [ 128   78  902 2746  544]
+ [ 561  144  731  526 3087]]
+Time usage: 0:00:53
